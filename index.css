@@ -1,0 +1,110 @@
+html {
+    font-size : 16px;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    background-color: #e6eff6;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 600px;
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.67);
+}
+.top-section{
+    width: 100%;
+    height: 40%;
+    font-size: 80%;
+    background-color: white;
+    padding: 20px;
+
+}
+.top-section > h2{
+    color: #41b6b8;
+}
+.top-section > h3{
+    color: #bfdf32;
+}
+.top-section > h4{
+    color: #b6bbc1;
+    opacity: .8;
+    margin: 0px;
+}
+
+.bottom-left-section {
+    width: 50%;
+    height: 60%;
+    font-size: 70%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    padding: 30px;
+    background-color: #2bb3b1;
+}
+.bottom-left-section > #money{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.bottom-left-section > p{
+    font-weight: 1;
+    margin-left: 5px;
+    position: relative;
+    bottom: 4px;
+    display: inline-block;
+    opacity: .6;
+}
+.bottom-left-section > h4{
+    font-weight: 400;
+    position: relative;
+    bottom: 15px;
+}
+.bottom-left-section > button{
+    border: 0px;
+    background-color: #bfdf32;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.bottom-left-section > button:hover{
+    background-color: #b2d12b;
+}
+
+.bottom-right-section {
+    width: 50%;
+    height: 60%;
+    font-size: 100%;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    padding: 5px;
+    display: inline-block;
+    background-color: #4abebd;
+}
+.bottom-right-section > ol > h3{
+    font-weight: bold;
+    font-size: .9rem;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.bottom-right-section > ol > li{
+    font-weight: lighter;
+    list-style: none;
+    font-size: 80%;
+    padding: 0px;
+    opacity: .8;
+    margin-bottom: 4px;
+}
